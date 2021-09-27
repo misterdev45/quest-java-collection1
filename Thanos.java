@@ -33,13 +33,11 @@ public class Thanos {
     	heroes.get(5);
     	hero6.setAge(1501);	
     	
-   //Collections.shuffle(heroes);
+   Collections.shuffle(heroes);
    
    List<Hero> halflist=heroes.subList(0,4);
-    	
+   //Collections.shuffle(halflist);
    for(Hero hero: halflist) {
-	   Collections.shuffle(halflist);
-	  
 		 System.out.println(hero.getName());
 		
 	}
